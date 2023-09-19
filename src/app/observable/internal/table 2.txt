@@ -1,0 +1,17 @@
+<table  border="1">
+
+    <tr>
+
+         
+        <th>Days</th>
+        <th>Weather</th>
+
+
+
+    </tr>
+
+
+
+
+
+</table>

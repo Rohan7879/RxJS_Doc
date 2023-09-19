@@ -1,0 +1,68 @@
+<div class="mt-3">
+  <h2>Of and From</h2>
+  <br />
+  <strong>Example 1(OF)</strong>
+  <hr />
+  <div class="row">
+    <div class="col-md-6">
+      <p class="bg-light py-2 px-3 border rounded">
+        <strong>Data : </strong>of('Rohan','sanidhya','Siddharth')
+      </p>
+      <hr />
+      <ul>
+        <li id="elcontainer"></li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <p class="bg-light py-2 px-3 border rounded">
+        <strong>Data : </strong
+        >of(&#123;a:'Rohan',b:'sanidhya',c:'Siddharth'&#125;)
+      </p>
+      <hr />
+      <ul>
+        <li><strong>a:</strong> {{ obsMsg.a }}</li>
+        <li><strong>b:</strong> {{ obsMsg.b }}</li>
+        <li><strong>c:</strong> {{ obsMsg.c }}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<strong>Example 2(FROM)</strong>
+<hr />
+
+<div class="row">
+  <div class="col-md-4">
+    <strong>Array</strong>
+    <hr />
+    <p class="bg-light py-2 px-3 border rounded">
+      <strong>Data : </strong>from(['Rohan','sanidhya','Siddharth'])
+    </p>
+    <hr />
+    <ul>
+      <li id="elcontainer3"></li>
+    </ul>
+  </div>
+  <div class="col-md-4">
+    <strong>Promise</strong>
+    <hr />
+    <p class="bg-light py-2 px-3 border rounded">
+      <strong>Data : </strong>Promise to observable
+    </p>
+    <hr />
+    <ul>
+      <li id="elcontainer4"></li>
+    </ul>
+  </div>
+  <div class="col-md-4">
+    <strong>String</strong>
+    <hr />
+    <p class="bg-light py-2 px-3 border rounded">
+      <strong>Data : </strong>String to observable
+    </p>
+    <hr />
+    <ul>
+      <li id="elcontainer5"></li>
+    </ul>
+  </div>
+</div>
